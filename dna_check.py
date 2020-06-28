@@ -8,10 +8,10 @@ suspects = {"Eva": ["blonde", "oval", "blue", "female"],
             "Matej": ["black", "oval", "blue", "male"],
             "Miha": ["brown", "square", "green", "male"]}
 
-with open ("dna.txt", "r") as dna_string:
+with open("dna.txt", "r") as dna_string:
     dna = dna_string.read()
 
-dna_ice_cream_lover =[]
+dna_ice_cream_lover = []
 
 for x in hair_colour:
     if hair_colour[x] in dna:
